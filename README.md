@@ -1,70 +1,58 @@
-# Getting Started with Create React App
+# React Hooks
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Criar o projeto
 
-## Available Scripts
+Execute o comando abaixo, onde hooks, é o nome do projeto:
 
-In the project directory, you can run:
+```shell
+$ create-react-app hooks
+```
 
-### `npm start`
+Caso o create-react-app não esteja disponível, instale-o com o seguinte comando:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+```shell
+$ npm i -g create-react-app
+```
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Este projeto utiliza [React Router](https://reactrouter.com/). Para instalá-lo,
+execute o comando a seguir:
 
-### `npm test`
+```shell
+$ npm i react-router-dom
+```
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
+## Saiba Mais
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- [As 70 principais perguntas e respostas da entrevista React JS](https://career.guru99.com/pt/reactjs-interview-questions/)
+- [React exports, imports e defaults](https://maujor.com/tutorial/react-export-import-defaults.php)
+- [Atribuição via desestruturação (destructuring assignment)](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment)
+- [Test CSS Flexbox](https://flexbox.help)
+- [Flexbox Froggy](https://flexboxfroggy.com/)
+- [CSS Flex Layout - Angry Tools](https://angrytools.com/css-flex/)
+- [Alura: Flexbox CSS: Guia Completo, Elementos e Exemplos](https://www.alura.com.br/artigos/css-guia-do-flexbox)
+- [Desvendando o Objeto Spread no JavaScript](https://codertechdotblog.wordpress.com/2023/07/19/desvendando-o-objeto-spread-no-javascript-desmistificando-seus-recursos-e-exemplos-de-uso/)
+- [Youtube COD3R: Flexbox para Fluter, React Native, Web](https://youtu.be/s-CARPA01NU)
+- [Como usar a função React.cloneElement()?](https://acervolima.com/como-usar-a-funcao-react-cloneelement/)
+- [React.Component](https://pt-br.legacy.reactjs.org/docs/react-component.html)
+- [ReactJS: entenda a diferença entre Function e Class component](https://blog.ateliware.com/reactjs-function-class-component/)
+- [O que é 'this' no React](https://medium.com/byte-sized-react/what-is-this-in-react-25c62c31480)
+- [A evolução do desenvolvimento React](https://www.alura.com.br/artigos/evolucao-desenvolvimento-react)
+- [Recursos do JavaScript que Você Precisa Conhecer para Dominar o React](https://kinsta.com/pt/blog/javascript-react/)
+- [Como quebrar uma string em várias linhas em JavaScript](https://horadecodar.com.br/como-quebrar-uma-string-em-varias-linhas-em-javascript/)
+- [Template strings (Template literals)](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Template_literals)
+- [uiGradients - Fornece o CSS de diversos gradientes](https://uigradients.com/)
+- [Construa um CSS mágico com variáveis nativas](https://www.alura.com.br/artigos/construa-css-magico-variaveis-nativas)
+- [Learn CSS Grid](https://learncssgrid.com/#grid-container)
+- [Grid Garden Game - CSS Grid](https://cssgridgarden.com/)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Dicas VS Code
+- [Youtube: Escrever HTML 50% mais rápido no VS Code](https://youtu.be/8jLfTDn3_TM)
+- [Youtube: 5 Extensões VS Code](https://youtu.be/HIxRDyFfnuc)
 
-### `npm run eject`
+## Teclas de Atalho VS Code
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- Selecionada uma palavra, tecle alt+D para marcar as demais
+- Tecle Alt+Shift+Up ou Alt+Shift+Down para criar múltiplos cursores
+- Tecle Ctrl+Shift+H para abrir opção de pesquisar e substituir
