@@ -23,6 +23,12 @@ const UseEffect = (props) => {
         [number]
     )
 
+    useEffect(() => {
+        if (factorial > 1000000) {
+            document.title = "UM MILHÃO ATINGIDO"
+        }
+    }, [factorial])
+
     return (
         <div className="UseEffect">
             <PageTitle
