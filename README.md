@@ -1,5 +1,15 @@
 # React Hooks
 
+## UseState
+Estado em componentes funcionais. Sempre que uma variável de estado é alterada
+é feita uma nova renderização de tela.
+
+## UseEffect
+Executa efeitos colaterais em componentes funcionais. No projeto, é utilizado
+useEffect para executar o cálculo fatorial sempre que um novo número é inserido
+no controle INPUT.
+
+
 ## Criar o projeto
 
 Execute o comando abaixo, onde hooks, é o nome do projeto:
