@@ -2,7 +2,7 @@
 
 ## UseState
 Estado em componentes funcionais. Sempre que uma variável de estado é alterada
-é feita uma nova renderização de tela.
+é feita uma nova renderização do componente.
 
 ## UseEffect
 Executa efeitos colaterais em componentes funcionais. No projeto, é utilizado
@@ -11,7 +11,7 @@ no controle INPUT.
 
 # UseRef
 Retorna um objeto mutável com a propriedade ".current". Diferente de useState,
-useRef não renderiza a tela quando seu conteúdo é alterado.
+useRef não renderiza o componente quando seu conteúdo é alterado.
 
 
 ## Criar o projeto
@@ -59,7 +59,8 @@ $ npm i react-router-dom
 - [Construa um CSS mágico com variáveis nativas](https://www.alura.com.br/artigos/construa-css-magico-variaveis-nativas)
 - [Learn CSS Grid](https://learncssgrid.com/#grid-container)
 - [Grid Garden Game - CSS Grid](https://cssgridgarden.com/)
-
+- [Conhecendo o useRef do React](https://medium.com/@guigaoliveira_/conhecendo-o-useref-do-react-9d67e66)
+- [Qual é a diferença entre useRef() e createRef()?](https://stackoverflow.com/questions/54620698/whats-the-difference-between-useref-and-createref)
 
 ## Dicas VS Code
 - [Youtube: Escrever HTML 50% mais rápido no VS Code](https://youtu.be/8jLfTDn3_TM)
