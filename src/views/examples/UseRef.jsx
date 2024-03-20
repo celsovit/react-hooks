@@ -1,4 +1,4 @@
-import { useRef, useState } from 'react'
+import { useEffect, useRef, useState } from 'react'
 
 import PageTitle from '../../components/layout/PageTitle'
 import SectionTitle from '../../components/layout/SectionTitle'
@@ -8,7 +8,9 @@ const UseRef = (props) => {
     const [ value1 , setvalue1 ] = useState("")
     const count = useRef(0)
 
-    count.current = count.current + 1
+    useEffect(() => {
+        count.current++
+    }, [value1])
 
     return (
         <div className="UseRef">
