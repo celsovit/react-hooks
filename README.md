@@ -13,6 +13,8 @@ no controle INPUT.
 Retorna um objeto mutável com a propriedade ".current". Diferente de useState,
 useRef não renderiza o componente quando seu conteúdo é alterado.
 
+No exemplo de uso de useRef, a cada caractere digitado o foco muda de um elemento INPUT para outro, e a função merge se encarrega de juntar corretamente os caracteres digitados em ambos os INPUTs e formar a string digitada.
+
 
 ## Criar o projeto
 

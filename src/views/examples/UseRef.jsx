@@ -3,21 +3,40 @@ import { useEffect, useRef, useState } from 'react'
 import PageTitle from '../../components/layout/PageTitle'
 import SectionTitle from '../../components/layout/SectionTitle'
 
+const merge = (s1, s2) => {
+
+    let result = '';
+    const minLength = Math.min(s1.length, s2.length)
+
+    for (let i=0; i < minLength; i++)
+        result += s1[i] + s2[i]
+
+    result += s1.substr(minLength)
+    result += s2.substr(minLength)
+
+    return result
+
+}
+
 const UseRef = (props) => {
 
-    const [ value1 , setValue1 ] = useState("")
-    const [ value2 , setValue2 ] = useState("")
+    const [ value1 , setValue1 ] = useState('')
+    const [ value2 , setValue2 ] = useState('')
 
     const count = useRef(0)
     const myInput1 = useRef(null)
     const myInput2 = useRef(null)
 
-    console.log(myInput1.current)
+    useEffect(() => {
+        count.current++
+        myInput2.current.focus()
+    }, [value1])
 
     useEffect(() => {
         count.current++
-    }, [value1, value2])
-
+        myInput1.current.focus()
+    }, [value2])
+    
     return (
         <div className="UseRef">
             <PageTitle
@@ -29,7 +48,7 @@ const UseRef = (props) => {
             <div className="center">
                 <div>
                     <span className="text">Valor: </span>
-                    <span className="text">{ value1 } [</span>
+                    <span className="text">{ merge(value1, value2) } [</span>
                     <span className="text red">{ count.current }</span>
                     <span className="text">]</span>
                 </div>
