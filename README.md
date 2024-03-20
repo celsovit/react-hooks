@@ -9,6 +9,10 @@ Executa efeitos colaterais em componentes funcionais. No projeto, é utilizado
 useEffect para executar o cálculo fatorial sempre que um novo número é inserido
 no controle INPUT.
 
+# UseRef
+Retorna um objeto mutável com a propriedade ".current". Diferente de useState,
+useRef não renderiza a tela quando seu conteúdo é alterado.
+
 
 ## Criar o projeto
 
