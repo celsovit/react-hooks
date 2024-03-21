@@ -18,6 +18,9 @@ No exemplo de uso de useRef, a cada caractere digitado o foco muda de um element
 ## UseMemo
 Retorna um valor memoizado. Mantém o dado em memória e somente renderiza o componente que ele monitora e se seu valor for modificado.
 
+## UseCallback
+Parecido com UseMemo, exceto pelo fato de que UseCallback retorna a referência para uma função guardada em memória (memoizada).
+
 ## Criar o projeto
 
 Execute o comando abaixo, onde hooks, é o nome do projeto:
