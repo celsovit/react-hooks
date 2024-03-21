@@ -21,6 +21,8 @@ Retorna um valor memoizado. Mantém o dado em memória e somente renderiza o com
 ## UseCallback
 Parecido com UseMemo, exceto pelo fato de que UseCallback retorna a referência para uma função guardada em memória (memoizada).
 
+Execute o exemplo e confira no console quantas vezes a palavra "renderizou..." será impressa.
+
 ## Criar o projeto
 
 Execute o comando abaixo, onde hooks, é o nome do projeto:
@@ -69,6 +71,8 @@ $ npm i react-router-dom
 - [Conhecendo o useRef do React](https://medium.com/@guigaoliveira_/conhecendo-o-useref-do-react-9d67e66)
 - [Qual é a diferença entre useRef() e createRef()?](https://stackoverflow.com/questions/54620698/whats-the-difference-between-useref-and-createref)
 - [React.useMemo na prática](https://medium.com/reactbrasil/react-usememo-na-pr%C3%A1tica-692110771c01)
+- [React useCallback](https://www.dataside.com.br/dataside-community/linguagem-de-programacao/react-usecallback)
+- [Melhorando o Desempenho do React: useCallback vs. useMemo Hooks](https://adevindev.xyz/post/melhorando-o-desempenho-do-react)
 
 ## Dicas VS Code
 - [Youtube: Escrever HTML 50% mais rápido no VS Code](https://youtu.be/8jLfTDn3_TM)
