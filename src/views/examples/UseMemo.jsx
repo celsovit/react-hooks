@@ -1,9 +1,8 @@
-import { useState } from 'react'
+import { useEffect, useState } from 'react'
 import PageTitle from '../../components/layout/PageTitle'
 
 const sum = (a, b) => {
     const future = Date.now() + 2000
-    console.log(future)
     while(Date.now() < future) {}   // esoera 2 segundos
     return a + b
 }
@@ -14,8 +13,13 @@ const UseMemo = (props) => {
     const [ n2, setN2 ]  = useState(0)
     const [ n3, setN3 ]  = useState(0)
 
-    const result = sum(n1, n2)
+    const [ result, setResult ] = useState(0)
 
+    useEffect(function () {
+        setResult(sum(n1, n2))
+    }, [n1, n2])
+
+    
     return (
         <div className="UseMemo">
             <PageTitle
