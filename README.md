@@ -65,6 +65,7 @@ $ npm i react-router-dom
 - [Grid Garden Game - CSS Grid](https://cssgridgarden.com/)
 - [Conhecendo o useRef do React](https://medium.com/@guigaoliveira_/conhecendo-o-useref-do-react-9d67e66)
 - [Qual é a diferença entre useRef() e createRef()?](https://stackoverflow.com/questions/54620698/whats-the-difference-between-useref-and-createref)
+- [React.useMemo na prática](https://medium.com/reactbrasil/react-usememo-na-pr%C3%A1tica-692110771c01)
 
 ## Dicas VS Code
 - [Youtube: Escrever HTML 50% mais rápido no VS Code](https://youtu.be/8jLfTDn3_TM)
