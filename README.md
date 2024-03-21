@@ -16,7 +16,7 @@ useRef não renderiza o componente quando seu conteúdo é alterado.
 No exemplo de uso de useRef, a cada caractere digitado o foco muda de um elemento INPUT para outro, e a função merge se encarrega de juntar corretamente os caracteres digitados em ambos os INPUTs e formar a string digitada.
 
 ## UseMemo
-Retorna um valor memoizado
+Retorna um valor memoizado. Mantém o dado em memória e somente renderiza o componente que ele monitora e se seu valor for modificado.
 
 ## Criar o projeto
 
