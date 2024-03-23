@@ -28,6 +28,9 @@ Aceita um objeto de contexto e retorna o valor atual do contexto. Este valor fic
 
 Como exemplo no curso foi demonstrado o contexto como um valor de leitura, como também como alterar o valor do contexto usando useState.
 
+## UseReducer
+Uma outra forma de ter estado em componentes funcionais
+
 ## Criar o projeto
 
 Execute o comando abaixo, onde hooks, é o nome do projeto:
@@ -78,6 +81,7 @@ $ npm i react-router-dom
 - [React.useMemo na prática](https://medium.com/reactbrasil/react-usememo-na-pr%C3%A1tica-692110771c01)
 - [React useCallback](https://www.dataside.com.br/dataside-community/linguagem-de-programacao/react-usecallback)
 - [Melhorando o Desempenho do React: useCallback vs. useMemo Hooks](https://adevindev.xyz/post/melhorando-o-desempenho-do-react)
+- [Usando useReducer ao invés do useState](https://pt.linkedin.com/pulse/usando-usereducer-ao-inv%C3%A9s-do-usestate-caleb-buffleben)
 
 ## Dicas VS Code
 - [Youtube: Escrever HTML 50% mais rápido no VS Code](https://youtu.be/8jLfTDn3_TM)
