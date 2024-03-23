@@ -24,7 +24,9 @@ Parecido com UseMemo, exceto pelo fato de que UseCallback retorna a referência 
 Execute o exemplo e confira no console quantas vezes a palavra "renderizou..." será impressa.
 
 ## UseContext
-Aceita um objeto de contexto e retorna o valor atual do contexto.
+Aceita um objeto de contexto e retorna o valor atual do contexto. Este valor fica disponível para uso em toda a aplicação.
+
+Como exemplo no curso foi demonstrado o contexto como um valor de leitura, como também como alterar o valor do contexto usando useState.
 
 ## Criar o projeto
 
