@@ -23,6 +23,9 @@ Parecido com UseMemo, exceto pelo fato de que UseCallback retorna a referência 
 
 Execute o exemplo e confira no console quantas vezes a palavra "renderizou..." será impressa.
 
+## UseContext
+Aceita um objeto de contexto e retorna o valor atual do contexto.
+
 ## Criar o projeto
 
 Execute o comando abaixo, onde hooks, é o nome do projeto:
