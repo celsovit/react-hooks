@@ -29,7 +29,10 @@ Aceita um objeto de contexto e retorna o valor atual do contexto. Este valor fic
 Como exemplo no curso foi demonstrado o contexto como um valor de leitura, como também como alterar o valor do contexto usando useState.
 
 ## UseReducer
-Uma outra forma de ter estado em componentes funcionais
+Uma outra forma de ter estado em componentes funcionais.
+
+## Custom Hooks
+É possível criar um próprio hook como hook personalizado.
 
 ## Criar o projeto
 
